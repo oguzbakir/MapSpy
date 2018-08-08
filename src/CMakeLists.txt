@@ -14,7 +14,7 @@ find_package(Qt5Sql REQUIRED)
 find_package(Qt5Xml REQUIRED)
 find_package(Qt5PrintSupport REQUIRED)
 
-add_executable(MapSpy main.cpp mainwindow.cpp mainwindow.h)
+add_executable(MapSpy main.cpp mainwindow.cpp mainwindow.h TreeItem.h)
 
 
 # Executables fail to build with Qt 5 in the default configuration
